@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /*Header styles*/
 header {
   display: flex;
@@ -15,8 +20,10 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
+  top: 0;
   justify-content: space-between;
   align-items: center;
+  background-color: #000;
 }
 
 #logo {
@@ -34,4 +41,20 @@ header nav span a {
 
 header nav span {
   margin-right: 20px;
+}
+
+/*Content*/
+#our-mission {
+  display: flex;
+  margin-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  background-color: #000;
+  opacity: 0.9;
 }
