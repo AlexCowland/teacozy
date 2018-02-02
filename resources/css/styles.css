@@ -53,7 +53,7 @@ header nav span a {
   margin-top: 69px;
   height: 700px;
   width: 1200px;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-image: url("../images/img-mission-background.jpg");
   align-items: center;
 }
 
@@ -70,16 +70,47 @@ header nav span a {
 }
 
 .tea {
-  width: 300px;
+
   padding: 5px;
   display: block;
 }
 
 .tea img {
-  width: 100%;
+  width: 300px;
 }
 
 .tea h4 {
   display: block;
   margin-top: 10px;
+}
+
+/*Locations*/
+
+#locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: #000;
+  opacity: 1;
+  width: 300px;
+  min-height: 200px;
+  margin: 0 20px;
+}
+
+#locations h2 {
+  margin-bottom: 0 0 15px 0;
 }
