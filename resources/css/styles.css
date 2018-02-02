@@ -31,19 +31,23 @@ header {
   padding-left: 10px;
 }
 
-header nav {
-  padding-right: 10px;
+header nav span {
+  margin-right: 30px;
 }
 
 header nav span a {
   color: seashell;
 }
 
-header nav span {
-  margin-right: 20px;
+/*Content*/
+
+.banner {
+  width: 100%;
+  background-color: #000;
+  opacity: 0.9;
 }
 
-/*Content*/
+/*Mission*/
 #our-mission {
   display: flex;
   margin-top: 69px;
@@ -53,8 +57,29 @@ header nav span {
   align-items: center;
 }
 
-.banner {
+/*Tea of the Month*/
+#totm {
+  width: 1000px;
+  margin: 50px auto ;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  width: 300px;
+  padding: 5px;
+  display: block;
+}
+
+.tea img {
   width: 100%;
-  background-color: #000;
-  opacity: 0.9;
+}
+
+.tea h4 {
+  display: block;
+  margin-top: 10px;
 }
